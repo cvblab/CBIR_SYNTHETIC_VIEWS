@@ -1,6 +1,10 @@
 # Enhancing Image Retrieval Performance with Generative Models in Siamese Networks
 The official implementation of [Enhancing Image Retrieval Performance with Generative Models in Siamese Networks](https://scholar.google.com/)  
-- [Alejandro Golfe](https://scholar.google.com/),[Adrián Colomer](https://scholar.google.com/), [José Prades](https://scholar.google.com/), [Valery Naranjo](https://scholar.google.com/)  
+[Alejandro Golfe](https://scholar.google.com/), [Adrián Colomer]([https://scholar.google.com/](https://scholar.google.es/citations?user=U6BEiIEAAAAJ&hl=es&oi=ao)), [José Prades](https://www.upv.es/ficha-personal/jprades), [Valery Naranjo]([https://scholar.google.com/](https://scholar.google.es/citations?user=jk4XsG0AAAAJ&hl=es&oi=ao)  
+| [Paper](URL_AQUI) | [Code](https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS) |  
+
+![Model Diagram](images/diagram.png)
+
 ## Overview
 
 Prostate cancer is a critical healthcare challenge globally and is one of the most prevalent types of cancer in men. Early and accurate diagnosis is essential for effective treatment and improved patient outcomes. 
@@ -12,17 +16,12 @@ This study evaluates how generative deep learning models can improve the quality
 Furthermore, this work is the first in the literature where latent representations optimized for CBIR are used to train an attention mechanism for performing Gleason Scoring of a Whole Slide Image (WSI).
 
 
-
-## Resources  
-
-| [Paper](URL_AQUI) | [Code](URL_AQUI) |  
-
-## How to Use  
+## Usage 
 
 1. Clone this repository:  
 
    ```sh
-   git clone URL_AQUI
+   git clone https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS
    cd nombre_del_repositorio
 
   
@@ -105,6 +104,9 @@ python train.py --path_experiment /path/to/experiment --last_epoch 50
 ```
 
 This command will resume training from epoch 50.
+
+## Acknowledgment
+This repository is mainly based on [SimCLR](https://github.com/sthalles/SimCLR) code base. We sincerely thank prior authors on this topic for their code base.
 
 ## Citation
 
