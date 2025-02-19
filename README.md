@@ -1,10 +1,36 @@
- Model Training and Evaluation
+# Enhancing Image Retrieval Performance with Generative Models in Siamese Networks
 
-This project trains and evaluates a machine learning model on a dataset using a synthetic data generation technique. The code supports training with a custom model, evaluation using k-NN, and saves the obtained results.
+## Overview
 
-## Requirements
+Prostate cancer is a critical healthcare challenge globally and is one of the most prevalent types of cancer in men. Early and accurate diagnosis is essential for effective treatment and improved patient outcomes. 
 
-Ensure that the following dependencies are installed:
+In the existing literature, computer-aided diagnosis (CAD) solutions have been developed to assist pathologists in various tasks, including classification, diagnosis, and prostate cancer grading. Content-based image retrieval (CBIR) techniques provide valuable approaches to enhance these computer-aided solutions.
+
+This study evaluates how generative deep learning models can improve the quality of retrievals within a CBIR system. Specifically, we propose applying a Siamese Network approach, which enables us to learn how to encode image patches into latent representations for retrieval purposes. We used the ProGleason-GAN framework trained on the SiCAPv2 dataset to create similar pairs of input patches. Our observations indicate that introducing synthetic patches leads to notable improvements in the evaluated metrics, underscoring the utility of generative models within CBIR tasks. 
+
+Furthermore, this work is the first in the literature where latent representations optimized for CBIR are used to train an attention mechanism for performing Gleason Scoring of a Whole Slide Image (WSI).
+
+## Authors  
+
+- [Alejandro Golfe](https://scholar.google.com/)  
+- [Adrián Colomer](https://scholar.google.com/)  
+- [José Prades](https://scholar.google.com/)  
+- [Valery Naranjo](https://scholar.google.com/)  
+
+## Resources  
+
+| [Paper](URL_AQUI) | [Code](URL_AQUI) |  
+
+## How to Use  
+
+1. Clone this repository:  
+
+   ```sh
+   git clone URL_AQUI
+   cd nombre_del_repositorio
+
+  
+2. Install dependencies:
 
 - Python 3.x
 - PyTorch
@@ -22,8 +48,7 @@ You can install the required dependencies by running:
 ```bash
 pip install -r requirements.txt
 ```
-
-## File Structure
+3. File Structure
 
 The main components of this project are:
 
@@ -33,9 +58,9 @@ The main components of this project are:
 - `config.ini`: Configuration file containing all the parameters required for training and evaluation.
 - `train.py`: Main script for training and evaluation, including argument parsing.
 
-## Configuration
+4. Configuration
 
-Before running the code, you will need to configure the `config.ini` file to set paths and parameters.
+Before running the code, you must configure the `config.ini` file to set paths and parameters.
 
 Example `config.ini` file format:
 
@@ -62,7 +87,7 @@ lr = 0.001
 
 Make sure that the paths to your datasets and models are correctly specified.
 
-## Running the Code
+5. Running the Code
 
 To train the model and evaluate its performance, run the following command in the terminal:
 
@@ -72,7 +97,7 @@ python train.py --path_experiment /path/to/experiment
 
 The script will use the configurations set in `config.ini` to perform training and evaluation.
 
-### Arguments
+6. Arguments
 
 - `--path_experiment`: The path to the directory containing the experiment's configuration files and where the results will be stored.
 - `--last_epoch`: Optional argument to specify the last trained epoch (default is `0` to start from scratch).
@@ -84,22 +109,6 @@ python train.py --path_experiment /path/to/experiment --last_epoch 50
 ```
 
 This command will resume training from epoch 50.
-
-## Model Architecture
-
-The model used in this project is based on a custom architecture defined in `model.py`. It is designed for learning a representation from images and utilizes synthetic data generation techniques for training.
-
-## Training Process
-
-During training, the model will be optimized using the Adam optimizer. The synthetic data generator is used to create augmented data samples, which are then used to compute the loss and update the model. The training process runs for a specified number of epochs, and the loss is reported after each epoch.
-
-## Evaluation
-
-The model is evaluated using a k-NN approach on the test set. During evaluation, the top-1 and top-5 accuracy metrics are computed to measure the model's performance. The evaluation results are logged and saved.
-
-## Results and Checkpoints
-
-Training progress, including training loss and test accuracies (top-1 and top-5), will be saved in the `results_path` specified in the `config.ini` file. The model's weights will also be saved if it achieves a new best top-1 accuracy.
 
 ## Citation
 
