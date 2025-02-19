@@ -48,10 +48,11 @@ pip install -r requirements.txt
 The main components of this project are:
 
 - `model.py`: Contains the definition of the neural network architecture.
+- 'models_Progan_ACGAN.py': Contain the definition of the ProGleason-GAN model architecture.
 - `evaluation.py`: Contains evaluation functions.
 - `utils.py`: Contains utility functions like data loading, transformations, etc.
 - `config.ini`: Configuration file containing all the parameters required for training and evaluation.
-- `train.py`: Main script for training and evaluation, including argument parsing.
+- `main.py`: Main script for training and evaluation, including argument parsing.
 
 4. Configuration
 
@@ -87,7 +88,7 @@ Make sure that the paths to your datasets and models are correctly specified.
 To train the model and evaluate its performance, run the following command in the terminal:
 
 ```bash
-python train.py --path_experiment /path/to/experiment
+python main.py --path_experiment /path/to/experiment
 ```
 
 The script will use the configurations set in `config.ini` to perform training and evaluation.
@@ -100,7 +101,7 @@ The script will use the configurations set in `config.ini` to perform training a
 Example:
 
 ```bash
-python train.py --path_experiment /path/to/experiment --last_epoch 50
+python main.py --path_experiment /path/to/experiment --last_epoch 50
 ```
 
 This command will resume training from epoch 50.
