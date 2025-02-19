@@ -1,0 +1,6 @@
+thop
+nearpy
+openpyxl
+
+
+
