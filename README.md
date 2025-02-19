@@ -21,8 +21,7 @@ Furthermore, this work is the first in the literature where latent representatio
 1. Clone this repository:  
 
    ```sh
-   git clone https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS
-   cd nombre_del_repositorio
+   git clone https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS   
 
   
 2. Install dependencies:
