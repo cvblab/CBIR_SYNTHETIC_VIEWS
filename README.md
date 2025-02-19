@@ -1,5 +1,6 @@
 # Enhancing Image Retrieval Performance with Generative Models in Siamese Networks
-
+The official implementation of [Enhancing Image Retrieval Performance with Generative Models in Siamese Networks](https://scholar.google.com/)  
+- [Alejandro Golfe](https://scholar.google.com/),[Adrián Colomer](https://scholar.google.com/), [José Prades](https://scholar.google.com/), [Valery Naranjo](https://scholar.google.com/)  
 ## Overview
 
 Prostate cancer is a critical healthcare challenge globally and is one of the most prevalent types of cancer in men. Early and accurate diagnosis is essential for effective treatment and improved patient outcomes. 
@@ -10,12 +11,7 @@ This study evaluates how generative deep learning models can improve the quality
 
 Furthermore, this work is the first in the literature where latent representations optimized for CBIR are used to train an attention mechanism for performing Gleason Scoring of a Whole Slide Image (WSI).
 
-## Authors  
 
-- [Alejandro Golfe](https://scholar.google.com/)  
-- [Adrián Colomer](https://scholar.google.com/)  
-- [José Prades](https://scholar.google.com/)  
-- [Valery Naranjo](https://scholar.google.com/)  
 
 ## Resources  
 
