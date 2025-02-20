@@ -47,7 +47,7 @@ pip install -r requirements.txt
 The main components of this project are:
 
 - `model.py`: Contains the definition of the neural network architecture.
-- 'models_Progan_ACGAN.py': Contain the definition of the ProGleason-GAN model architecture.
+- `models_Progan_ACGAN.py`: Contain the definition of the ProGleason-GAN model architecture.
 - `evaluation.py`: Contains evaluation functions.
 - `utils.py`: Contains utility functions like data loading, transformations, etc.
 - `config.ini`: Configuration file containing all the parameters required for training and evaluation.
