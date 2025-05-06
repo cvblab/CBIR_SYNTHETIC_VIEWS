@@ -1,5 +1,5 @@
 ﻿# Enhancing Image Retrieval Performance with Generative Models in Siamese Networks
-The official implementation of [Enhancing Image Retrieval Performance with Generative Models in Siamese Networks](https://scholar.google.com/)  
+The official implementation of [Enhancing Image Retrieval Performance with Generative Models in Siamese Networks]([https://scholar.google.com/](https://ieeexplore.ieee.org/abstract/document/10896802))  
 [Alejandro Golfe](https://www.upv.es/ficha-personal/algolsan), [Adrián Colomer](https://scholar.google.es/citations?user=U6BEiIEAAAAJ&hl=es&oi=ao), [José Prades](https://www.upv.es/ficha-personal/jprades), [Valery Naranjo](https://scholar.google.es/citations?user=jk4XsG0AAAAJ&hl=es&oi=ao)  
 | [Paper](URL_AQUI) | [Code](https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS) |  
 
@@ -111,6 +111,14 @@ This repository is mainly based on [SimCLR](https://github.com/sthalles/SimCLR) 
 ## Citation
 
 If you use this code in your research, please cite it appropriately.
+
+@article{golfe2025enhancing,
+  title={Enhancing Image Retrieval Performance With Generative Models in Siamese Networks},
+  author={Golfe, Alejandro and Colomer, Adri{\'a}n and Padres, Jos{\'e} and Naranjo, Valery},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2025},
+  publisher={IEEE}
+}
 
 ## License
 
