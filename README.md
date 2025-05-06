@@ -112,13 +112,16 @@ This repository is mainly based on [SimCLR](https://github.com/sthalles/SimCLR) 
 
 If you use this code in your research, please cite it appropriately.
 
+```bibtex
 @article{golfe2025enhancing,
   title={Enhancing Image Retrieval Performance With Generative Models in Siamese Networks},
-  author={Golfe, Alejandro and Colomer, Adri{\'a}n and Padres, Jos{\'e} and Naranjo, Valery},
+  author={Golfe, Alejandro and Colomer, Adrián and Padres, José and Naranjo, Valery},
   journal={IEEE Journal of Biomedical and Health Informatics},
   year={2025},
   publisher={IEEE}
 }
+```
+
 
 ## License
 
