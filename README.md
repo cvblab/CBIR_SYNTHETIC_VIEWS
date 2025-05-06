@@ -23,12 +23,9 @@ Furthermore, this work is the first in the literature where latent representatio
    ```sh
    git clone https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS
 
-1. Download the ProGleason-GAN model:  
-
-   Download the model [here](https://drive.google.com/file/d/1U43XGAxKGEouVH0-X_cGCS4tMrYd65Ad/view?usp=sharing)
-
+2. Download the ProGleason-GAN model by clicking [here](https://drive.google.com/file/d/1U43XGAxKGEouVH0-X_cGCS4tMrYd65Ad/view?usp=sharing):  
   
-2. Install dependencies:
+3. Install dependencies:
 
 - Python 3.x
 - PyTorch
@@ -46,7 +43,7 @@ You can install the required dependencies by running:
 ```bash
 pip install -r requirements.txt
 ```
-3. File Structure
+4. File Structure
 
 The main components of this project are:
 
@@ -57,7 +54,7 @@ The main components of this project are:
 - `config.ini`: Configuration file containing all the parameters required for training and evaluation.
 - `main.py`: Main script for training and evaluation, including argument parsing.
 
-4. Configuration
+5. Configuration
 
 Before running the code, you must configure the `config.ini` file to set paths and parameters.
 
@@ -86,7 +83,7 @@ lr = 0.001
 
 Make sure that the paths to your datasets and models are correctly specified.
 
-5. Running the Code
+6. Running the Code
 
 To train the model and evaluate its performance, run the following command in the terminal:
 
@@ -96,7 +93,7 @@ python main.py --path_experiment /path/to/experiment
 
 The script will use the configurations set in `config.ini` to perform training and evaluation.
 
-6. Arguments
+7. Arguments
 
 - `--path_experiment`: The path to the directory containing the experiment's configuration files and where the results will be stored.
 - `--last_epoch`: Optional argument to specify the last trained epoch (default is `0` to start from scratch).
