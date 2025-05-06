@@ -1,7 +1,7 @@
 ﻿# Enhancing Image Retrieval Performance with Generative Models in Siamese Networks
 The official implementation of [Enhancing Image Retrieval Performance with Generative Models in Siamese Networks](https://ieeexplore.ieee.org/abstract/document/10896802)  
 [Alejandro Golfe](https://www.upv.es/ficha-personal/algolsan), [Adrián Colomer](https://scholar.google.es/citations?user=U6BEiIEAAAAJ&hl=es&oi=ao), [José Prades](https://www.upv.es/ficha-personal/jprades), [Valery Naranjo](https://scholar.google.es/citations?user=jk4XsG0AAAAJ&hl=es&oi=ao)  
-| [Paper](URL_AQUI) | [Code](https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS) |  
+| [Paper](https://ieeexplore.ieee.org/abstract/document/10896802) | [Code](https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS) |  
 
 ![Model Diagram](images/main.png)
 
