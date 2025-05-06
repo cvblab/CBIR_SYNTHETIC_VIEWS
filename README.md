@@ -21,7 +21,11 @@ Furthermore, this work is the first in the literature where latent representatio
 1. Clone this repository:  
 
    ```sh
-   git clone https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS   
+   git clone https://github.com/cvblab/CBIR_SYNTHETIC_VIEWS
+
+1. Download the ProGleason-GAN model:  
+
+   Download the model [here](https://drive.google.com/file/d/1U43XGAxKGEouVH0-X_cGCS4tMrYd65Ad/view?usp=sharing)
 
   
 2. Install dependencies:
